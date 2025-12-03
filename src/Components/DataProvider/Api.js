@@ -32,7 +32,7 @@ class Api {
       headers: this._headers,
     }).then(this._handserveresponse);
   }
-  getallcards() {
+  getAllCards() {
     return fetch(`${this._baseUrl}/getAllCards`, {
       headers: this._headers,
     }).then(this._handserveresponse);
