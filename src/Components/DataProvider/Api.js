@@ -39,7 +39,7 @@ class Api {
   }
 }
 
-const api = new Api("https://cards9b.onrender.com", {
+const api = new Api("https://cards9b-backend.onrender.com", {
   "Content-Type": "application/json",
 });
 
