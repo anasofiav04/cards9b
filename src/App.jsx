@@ -10,7 +10,7 @@ function App() {
   const [cards, setCards] = useState([]);
   async function loadCards() {
     try {
-      const data = await api.getallcards();
+      const data = await api.getAllCards();
       setCards(data);
     } catch (error) {
       console.error(error);
